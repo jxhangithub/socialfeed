@@ -29,4 +29,4 @@ Time spent: `25 Hours`
 
 ### Walkthrough
 
-![Video Walkthrough](...)
+https://github.com/jxhangithub/socialfeed/blob/master/socialfeed-demo.gif
