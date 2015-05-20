@@ -1,0 +1,44 @@
+{
+  "name": "socialfeeder",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.3",
+    "body-parser": "^1.12.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.8.1",
+    "cookie-parser": "^1.3.4",
+    "ejs": "^2.3.1",
+    "express": "^4.0.0",
+    "express-session": "^1.11.1",
+    "express-then": "^1.0.2",
+    "fb": "^0.7.0",
+    "lodash": "^3.8.0",
+    "mongoose": "^4.0.3",
+    "morgan": "^1.0.0",
+    "nodeify": "^1.0.0",
+    "nodeifyit": "^1.0.1",
+    "passport": "^0.2.1",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3",
+    "require-dir": "^0.3.0",
+    "songbird": "^1.0.1",
+    "twitter": "^1.2.5"
+  },
+  "description": "A complete node.js 3rd-party login app. - User can sign in and connect to LinkedIn, Facebook, Google and Twitter using `passport` - User can view the last 20 posts on their aggregated timeline - The current signed in user will be persisted across server restarts - In the home timeline, user can view posts with the user profile picture, username, content, origin social network and timestamp. In other words, data presentation should appear consistent for posts across social network sources. - In the timeline, user can like and unlike posts. - User can click share in the timeline, and share with a custom message on a separate page. - User can click reply in the timeline, and submit a reply on a separate page. - User can click compose anywhere, and submit a new post on a separate page. - When composing, user can select to which networks to post. - Optional: User can click a post and view it on a separate page with controls to share, like, and reply. - Optional: User should be able to unshare their posts. - Optional: User should be able to delete their posts. - Optional: Replies should be prefixed with the username and link to the conversation thread. - Optional: User can click a \"Next\" button at the bottom to load more",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxhangithub/nodejs-socialfeed-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jxhangithub/nodejs-socialfeed-starter/issues"
+  },
+  "homepage": "https://github.com/jxhangithub/nodejs-socialfeed-starter#readme"
+}
